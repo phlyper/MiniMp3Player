@@ -20,6 +20,13 @@ import javax.swing.Timer;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+/**
+ * @Author Phlyper
+ * A Mini Mp3 player with java media framework
+ * It is recommended to install the jmf framework from this link
+ * http://www.oracle.com/technetwork/java/javase/download-142937.html
+ */
+
 public class MiniMP3Player extends JFrame implements ActionListener, MouseMotionListener, ChangeListener {
 
     private Player lecteur = null;
